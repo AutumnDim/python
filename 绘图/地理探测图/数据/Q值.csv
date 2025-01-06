@@ -1,0 +1,4 @@
+type,carbon_content,city_station,clay_content,dem,dryness,landform_type,night_lights,population_density,pre,sand_content,slope,soil_bulk_density,soil_pH,tmp,water_content
+qv,0.579168683,0.007310057,0.473257385,0.455471148,0.020944022,0.287170004,0.007489838,0.179708438,0.04859801,0.478263345,0.182507658,0.52223232,0.203730001,0.102465199,0.477386505
+sig,4.90E-10,2.27E-10,1.74E-10,6.61E-10,2.95E-11,3.49E-10,9.18E-10,9.83E-10,3.33E-11,9.48E-10,8.71E-11,3.96E-10,6.60E-10,6.22E-10,2.88E-10
+NAME,X5,X14,X8,X10,X3,X12,X15,X13,X2,X9,X11,X7,X6,X1,X4

@@ -1,0 +1,16 @@
+,carbon_content,city_station,clay_content,dem,dryness,landform_type,night_lights,population_density,pre,sand_content,slope,soil_bulk_density,soil_pH,tmp,water_content
+carbon_content,,"Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, bi-"
+city_station,,,"Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear"
+clay_content,,,,"Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-"
+dem,,,,,"Enhance, nonlinear","Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, bi-"
+dryness,,,,,,"Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear"
+landform_type,,,,,,,"Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, bi-"
+night_lights,,,,,,,,"Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear"
+population_density,,,,,,,,,"Enhance, nonlinear","Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, bi-","Enhance, nonlinear","Enhance, bi-"
+pre,,,,,,,,,,"Enhance, bi-","Enhance, nonlinear","Enhance, bi-","Enhance, nonlinear","Enhance, nonlinear","Enhance, bi-"
+sand_content,,,,,,,,,,,"Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-","Enhance, bi-"
+slope,,,,,,,,,,,,"Enhance, nonlinear","Enhance, nonlinear","Enhance, nonlinear","Enhance, bi-"
+soil_bulk_density,,,,,,,,,,,,,"Enhance, bi-","Enhance, nonlinear","Enhance, bi-"
+soil_pH,,,,,,,,,,,,,,"Enhance, nonlinear","Enhance, bi-"
+tmp,,,,,,,,,,,,,,,"Enhance, bi-"
+water_content,,,,,,,,,,,,,,,
