@@ -1,0 +1,7 @@
+https://www.jianshu.com/p/c1b2d8569896
+
+
+1）我想把原来代码里的RF波段改为现在图表里的，主要是把原来一年内波段的10，50，90分位数改为表格里这种。2）我一般是把多个国家的滨海地区手动拆分成多个小区域，然后分区域跑代码。而且代码是先计算分类器，然后把这个tree导到Assets里，然后再重新开一个代码，用这个tree分类。这样内存就不溢出了。这个方法有点傻，你看看如何改进好。
+https://code.earthengine.google.com/6823ec2d25350f50ea632f6d919d6db9
+
+https://code.earthengine.google.com/25adccb99a2413a941e0e7080c60eee3
