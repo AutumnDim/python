@@ -1,0 +1,10 @@
+yr1	1980
+yr2 2015
+wks_in	/wps/home/wangjb/MeteoGrid/MeteoDbase/
+wks_out	/wps/home/wangjb/MeteoGrid/temp
+wks_tmp	/wps/home/wangjb/MeteoGrid/temp
+wks_grd	/wps/home/wangjb/MeteoGrid/temp
+
+fdem	asiadem_1km.txt
+fhdr	AsiaDEM_1km.hdr
+fgeotif	AsiaDEM_1km.tif

@@ -1,0 +1,10 @@
+yr1	2019
+yr2 2020
+wks_in	 /Users/jbwang/Data/MeteoGrid/
+wks_out	 /Users/jbwang/Data/MeteoGrid/tmp/
+wks_tmp	 /Users/jbwang/Data/MeteoGrid/tmp/
+wks_grd	 /Users/jbwang/Data/MeteoGrid/grd/
+
+fdem	asiadem_1km.txt
+fhdr	AsiaDEM_1km.hdr
+fgeotif	AsiaDEM_1km.tif

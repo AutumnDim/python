@@ -1,0 +1,10 @@
+yr1	2015
+yr2 2015
+wks_in	E:\MeteoGrid\MeteoDbase\
+wks_out	\\BA-37AEDE\Workspace\China8km\AsiaMeteo\temp
+wks_tmp	\\BA-37AEDE\Workspace\China8km\AsiaMeteo\temp
+wks_grd	\\BA-37AEDE\Workspace\China8km\AsiaMeteo\
+
+fdem	asiadem8km.txt
+fhdr	asiadem8km.hdr
+fgeotif	asiadem_8km.tif

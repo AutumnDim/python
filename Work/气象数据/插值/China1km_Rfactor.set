@@ -1,0 +1,10 @@
+yr1	1980
+yr2 2024
+wks_in	E:\Fpar\
+wks_out	E:\Fpar\out
+wks_tmp	E:\Fpar\out
+wks_grd	E:\Fpar\
+
+fdem	asiadem_1km.txt
+fhdr	AsiaDEM_1km.hdr
+fgeotif	AsiaDEM_1km.tif

@@ -1,0 +1,10 @@
+yr1	2015
+yr2 2018
+wks_in	E:\MeteoGrid\MeteoDbase\
+wks_out	c:\temp\Huanj\dbase
+wks_tmp	C:\temp\Huanj\temp
+wks_grd	C:\temp\Huanj\HuanjGrid\
+
+fdem	C:\temp\srtm_Huanj_250m.txt
+fhdr	C:\temp\srtm_Huanj_250m.hdr
+fgeotif	C:\temp\SRTM_Huanj_250m.tif

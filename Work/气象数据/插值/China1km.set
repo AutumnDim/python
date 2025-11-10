@@ -1,0 +1,10 @@
+yr1	2023
+yr2  2023
+wks_in	 E:\QX\OUT
+wks_out	E:\QX\OUT\temp
+wks_tmp	 E:\QX\OUT\temp
+wks_grd	 E:\QX\OUT
+
+fdem	asiadem_1km.txt
+fhdr	AsiaDEM_1km.hdr
+fgeotif	AsiaDEM_1km.tif

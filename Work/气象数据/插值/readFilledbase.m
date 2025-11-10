@@ -1,0 +1,38 @@
+function [xid, xdt, n] = readFilledbase(ff,days,headerline)
+if exist(ff, 'file')
+    fip = fopen(ff, 'r');
+    i = 1;
+    xid = [];
+    xdt = [];
+    str_header = [];
+    if headerline > 0
+        for i = 1 : headerline
+            s0 = fgetl(fip);
+            s1 = textscan(s0,'%s','Delimiter',',');
+            str_header{i,1} = (s1{:,1})';
+        end
+    end
+    while fip > 0 && ~feof(fip)
+        s0 = fgetl(fip);
+        if length(s0) > 0
+            s1 = textscan(s0,'%s','Delimiter',',');
+            s2 = s1{1,1};
+            gstr = s2{1};
+            dx = str2double(s2(2:end));
+            if length(dx) == days+1
+                xid(i,:) = gstr;
+                xdt(i,:) = dx';
+                i = i + 1;
+            end
+        end
+        % if i == 2801
+        %    disp(i)
+        %    % pause;
+        % end
+    end
+    fclose(fip);
+    n = i - 1;
+    
+else
+    disp(['Read failure: ' ff]);
+end   % IF file existedend
