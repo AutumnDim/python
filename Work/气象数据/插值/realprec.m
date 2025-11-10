@@ -1,0 +1,50 @@
+function [y] = realprec(vi, x)
+
+%%
+%
+%%
+% 1	5	13201	PRE
+% 2	9	11002	WIN
+% 3	10	12001	TEM
+% 4	11	13004	WVP
+% 5	12	13003	RHU
+% 6	13	14032	SSD
+% 7	15	12053	TMN
+% 8	17	12052	TMX
+%% microscale for all vaiables, regarded as 0 here
+x(find(x == 32700)) = 0;
+x(find(x == 32767)) = 32766;
+x(find(x <= -900)) = 32766;
+x(find(x >= 90000)) = 32766;
+x(isnan(x)) = 32766;
+% fill value was replaced with real value
+switch vi
+    case 'P'    % 1 PRECIPITATION
+        x(find(x >= 32000 & x < 32999 & x ~= 32766 & x ~= 32744)) = x(find(x >= 32000 & x < 32999 & x ~= 32766 & x ~= 32744)) - 32000;
+        x(find(x >= 31000 & x < 31999)) = x(find(x >= 31000 & x < 31999)) - 31000;
+        x(find(x >  30000 & x < 30999)) = x(find(x >  30000 & x < 30999)) - 30000;
+    case 'W'    % 2 MeanWind (0.1m/s), 13 QC
+        x(find(x >  1000 & x < 2000)) = x(find(x >  1000 & x < 2000)) - 1000;
+%     case {3 7 8}    % 3 MeanTemp, 7 MaxTemp, 8 MinTemp (0.1 deg), 11, 12, 13 QC
+%         if x < 39000
+%             y = x;
+%         else
+%             y = 0;
+%         end
+%     case 4    % 4 WATER VAPOR PRESSURE
+%         if x > 1000
+%             y = x - 1000;
+%         end
+%     case 5    % 5 MeanHumid (1%), 10 QC 
+%         x(find(x >  300000 & x < 300999)) = x(find(x >  300000 & x < 300999)) - 300000;
+%     case 6    % 6 SunHour (0.1h), 9 QC
+%         if x < 39000
+%             y = x;
+%         else
+%             y = 0;
+%         end
+end
+y = x;
+
+
+

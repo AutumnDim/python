@@ -1,0 +1,10 @@
+yr1	1980
+yr2 2015
+wks_in	E:\MeteoGrid\worldbase\
+wks_out	C:\temp\SWAsia\tmp
+wks_tmp	C:\temp\SWAsia\tmp
+wks_grd	C:\temp\SWAsia\MeteoGrid\
+
+fdem	srtm_swasia_8km.txt
+fhdr	C:\temp\SWAsia\dem\srtm_swasia_8km.hdr
+fgeotif	C:\temp\SWAsia\dem\SRTM_SWAsia_8km.tif

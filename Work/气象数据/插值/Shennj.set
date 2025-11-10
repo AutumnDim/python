@@ -1,0 +1,10 @@
+yr1	1980
+yr2 2015
+wks_in	E:\MeteoGrid\worldbase\
+wks_out	C:\temp\Shennj\tmp
+wks_tmp	C:\temp\Shennj\tmp
+wks_grd	C:\temp\Shennj\MeteoGrid\
+
+fdem	srtm_Shennj_250m.txt
+fhdr	D:\STSZHANGLI\SRTM\srtm_Shennj_250m.hdr
+fgeotif	D:\STSZHANGLI\SRTM\SRTM_Shennj_250m.tif

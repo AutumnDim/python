@@ -1,0 +1,38 @@
+                  Parameters for VISIM
+                  ********************
+                                      
+START OF PARAMETERS                   
+0                    # - conditional simulation (3=Vol,2=point,1=Vol+Point, 0=Uncon)
+nodata # - file with conditioning data
+1 2 3 4       # -  columns1 for X,Y,Z,vr,wt,sec.var
+dummy      # -  Geometry of volume/ray
+dummy      # -  Summary of volgeom.eas
+      -1    1e+21       # -  trimming limits for conditioning data
+0  -1 -1 -1 -1  0 0            # - debugging level: -1,0,1,2,3, read_covtable,read_lambda,read_volnh,read_randpath,do_cholesky,do_error_sim
+visim.out                    # - file for output
+1                     # - number of realizations to generate
+0                       # - ccdf. type: 0-normal, 1-target 
+reference.eas                    # - target histogram file
+1 0                     # - columns for variable and weights
+-3.50  3.50 100         # - min_Gmean, max_Gmean, n_Gmean
+ 0.00  2.00 100         # - min_Gvar, max_Gvar, n_Gvar
+170 0               # - nq, do_discrete 
+ 92 4272118.2188 31850.6371   # - nx,xmn,xsiz
+ 92 3573290.8851 -23364.7139   # - ny,ymn,ysiz
+  1   1.0000   1.0000   # - nz,zmn,zsiz
+1                   # - random number seed
+0 8                     # - min and max original data for sim
+28                      # - number of simulated nodes to use
+3  32    0.001          # - volNH method(0,1,2) nusevols, covlevel 
+3                       # - Random path 
+1                       # - assign data to nodes (0=no, 1=yes)
+0                       # - maximum data per octant (0=not used)
+  60.0000   60.0000   60.0000   # - radius for search ellipsoid
+   0.0000    0.0000    0.0000   # - angles for search ellipsoid
+   10.0000000000     1.0000000000             # - global mean and variance 
+1         0.001000000             # - nst, nugget effect
+1         0.999000000  67.500000    0.0000    0.0000 # - it,cc,ang1,ang2,ang3
+ 200.0000    5.0000    0.0000             # - a_hmax, a_hmin, a_vert
+0.000 100.000             # - zmin,zmax (tail extrapolation for target histogram)
+1 0.000                 # - lower tail option, parameter
+1 3.000                 # - upper tail option, parameter

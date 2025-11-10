@@ -1,0 +1,10 @@
+yr1	2000
+yr2 2015
+wks_in	E:\MeteoGrid\MeteoDbase\
+wks_out	E:\temp\Sjy18\tmp
+wks_tmp	E:\temp\Sjy18\tmp
+wks_grd	H:\temp\Sjy18\MeteoGrid\
+
+fdem	srtm_Sanjy_250m.txt
+fhdr	E:\Sanjy250m\srtm_Sanjy_250m.hdr
+fgeotif	E:\Sanjy250m\Parameters\sjy250m_dem.tif

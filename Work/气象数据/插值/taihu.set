@@ -1,0 +1,10 @@
+yr1	1990
+yr2 2018
+wks_in	E:\MeteoGrid\MeteoDbase\
+wks_out	E:\temp\taihu\tmp
+wks_tmp	E:\temp\taihu\tmp
+wks_grd	E:\temp\taihu\MeteoGrid\
+
+fdem	srtm_taihu_250m.txt
+fhdr	C:\Temp\Taihu_DEM250m\taihu_250m.hdr
+fgeotif	C:\Temp\Taihu_DEM250m\taihu_DEM250m.tif

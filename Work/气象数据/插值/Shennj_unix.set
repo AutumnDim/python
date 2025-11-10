@@ -1,0 +1,10 @@
+yr1	2015
+yr2 2015
+wks_in	/data/MeteoGrid/MeteoDbase/
+wks_out	/data/MeteoGrid/temp
+wks_tmp	/data/MeteoGrid/temp
+wks_grd	/data/MeteoGrid/Shennj/
+
+fdem	srtm_shennj_250m.txt
+fhdr	/data/MeteoGrid/Shennj/SRTM_Shennj_250m.hdr
+fgeotif	/data/MeteoGrid/Shennj/SRTM_Shennj_250m.tif
